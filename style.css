@@ -1,0 +1,152 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+body {
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* ruleset for headings */
+
+h1,
+h2 {
+  font-family: "DM Serif Text", serif;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 1.5;
+  font-size: 30px;
+}
+p {
+  letter-spacing: 1.5;
+  word-spacing: 1.5;
+  font-family: "Roboto Serif", serif;
+  font-size: 12px;
+  font-weight: 500;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#p {
+  text-indent: 20px;
+}
+
+/* ruleset for lists */
+li {
+  font-size: medium;
+  font-weight: 400;
+  line-height: 1.5;
+}
+ul li {
+  list-style-type: square;
+}
+ol {
+  list-style-type: lower-alpha;
+}
+
+/* ruleset for links */
+
+a {
+  outline: none;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: #a66;
+}
+
+a:focus {
+  text-decoration: none;
+  background: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-shadow: 2px 2px 2px darkred;
+}
+/* nav-bar  */
+.nav-bar :hover {
+  background: #a66;
+  color: #ffffff;
+}
+
+.nav-bar li a:active {
+  background: red;
+  color: yellow;
+}
+.nav-bar li a {
+  font-size: 18px;
+  display: block;
+  border: 1px solid #a66;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+}
+.nav-bar li {
+  list-style: none;
+}
+.nav-bar li a {
+  text-decoration: none;
+}
+/*  https links icon */
+a[href^="http"] {
+  background: url("img/icons8-external-link-26.png") no-repeat 100% 0;
+  background-size: 10px 10px;
+  padding-right: 12px;
+}
